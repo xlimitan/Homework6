@@ -58,14 +58,21 @@ public class Main {
     public static void task8() {
         System.out.println("Задача 8");
         int salary = 29000;
-        int bank = 0;
+        int pot = 0;
         for (int i = 1; i <= 12; i++) {
-            bank = bank + salary;
-            System.out.println("Месяц " + i + (" сумма накоплений равна ") + bank + ( "рублей."));
+            pot = pot + salary;
+            System.out.println("Месяц " + i + (" сумма накоплений равна ") + pot + ( "рублей."));
         }
     }
     public static void task9() {
         System.out.println("Задача 9");
+        int salary = 29000;
+        int bank = 0;
+        for (int i = 1; i <= 12; i++) {
+            salary = salary + salary/100;
+            bank = bank + salary;
+            System.out.println("Месяц " + i + (" сумма накоплений равна ") + bank + ( "рублей."));
+        }
     }
     public static void task10() {
         System.out.println("Задача 10");

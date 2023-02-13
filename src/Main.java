@@ -27,7 +27,7 @@ public class Main {
     }
     public static void task3() {
         System.out.println("Задача 3");
-        for (int i = 0; i <= 17; i += 2) {
+        for (int i = 2; i <= 17; i += 2) {
             System.out.println("Итерация цикла " + i);
         }
     }

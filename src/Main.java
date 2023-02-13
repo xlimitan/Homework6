@@ -45,6 +45,9 @@ public class Main {
     }
     public static void task6() {
         System.out.println("Задача 6");
+        for (int i = 7; i <= 98; i += 7) {
+            System.out.println("Итерация цикла " + i);
+        }
     }
     public static void task7() {
         System.out.println("Задача 7");
